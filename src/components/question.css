@@ -1,0 +1,128 @@
+* {
+    font-family: "Verdana", cursive, sans-serif;
+    color: #ffffff;
+}
+  
+body {
+    background-color: #ffdada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+  
+.app {
+    background-color: #fda1a2a1;
+    width: 1000px;
+    min-height: 200px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.score-section {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}
+  /* QUESTION */
+.question-section {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+  
+.question-count {
+    margin-bottom: 20px;
+}
+  
+.question-count span {
+    font-size: 20px;
+    font-weight: 550;
+}
+  
+.question-text {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 550;
+    color: darkblue;
+}
+  
+  /* ANSWERS/RIGHT SECTION */
+.answer-section {
+    width: 900px;
+    flex-direction: column;
+    text-align: center;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+}
+.option {
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: rgba(225, 255, 0, 0.282);
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border: 5px rgb(199, 199, 199);
+    cursor: pointer;
+    border: 2px solid rgb(164, 179, 49);
+}
+.option:hover {
+    background-color: #ffdada;
+}
+.toggle-button {
+    position: absolute;
+    top: 155px;
+    right: 320px;
+    font-size: 16px;
+    padding: 8px;
+    width: 90px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.highlight {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lightred {
+    background-color: red;
+    cursor: pointer;
+    padding: 8px;
+    width: 150px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.lightred:hover{
+    background-color: #ff6666;
+}
+/* Add the following styles to your existing CSS or create a new CSS file */
+
+.restart-button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  
+.restart-button:hover {
+    background-color: #ff6666;
+}
